@@ -13,27 +13,27 @@
 <body>
 
     <main>
-        <div class="screen1, hide">
+        <div class="screen1">
             <h1>Qual a sua sorte de hoje?</h1>
             <p>abra o seu biscoito e descubra</p>
-            <div class="bixcoito"><img src="./images/Ebene 4.svg"></div>
+            <button id="bixcoito" class="bixcoito" onclick="click()"><img src="./images/Ebene 4.svg"></button>
         </div>
 
-        <div class="screen2">
+        <div class="hide screen2">
             <h1>Aqui está a sua sorte<br>de hoje:</h1>
-            <div class="luck">
-                <p>Se alguem ja te deu a mão e não pediu mais nada em troca, pensei bem, pois é um dia especial!</p>
+            <div id="luck" class="luck">
+                
             </div>
 
             <div class="container-image">
             <img src="./images/opened-cookie.svg">
             </div>
 
-            <button>Abrir outro biscoito</button>
+            <button id="OpenCookieAgain" class="OpenCookieAgain" onclick="click()">Abrir outro biscoito</button>
 
 
         </div>
     </main>
-    
+    <script src="./main.js"></script>
 </body>
 </html>
